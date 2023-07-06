@@ -1,0 +1,78 @@
+.navbar {
+  background-color: #160354 !important;
+}
+/* .slayt {
+  max-height: 100;
+} */
+#section-title {
+  text-align: center !important;
+  width: 100%;
+  height: 18vh;
+  padding-top: 40px;
+  background-image: url("image/bg-imagees.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-title {
+  text-align: center !important;
+}
+.card-img-top {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 32vh;
+  }
+}
+.logo {
+  width: 100%;
+  height: 10vh;
+}
+.bg-about {
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  background-image: url(image/1.jpeg);
+}
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 10px 10px 40px rgba(52, 58, 64, 0.1);
+  /* position: relative; */
+  /* top: 0; */
+  transition: all 0.3s;
+}
+.card:hover {
+  /* top: -10px; */
+  transform: translateY(-10px);
+  transition: all 0.3s !important;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  background-color: #ffc107;
+  border-radius: 5px;
+}
+.navbar-nav {
+  padding-left: 10px;
+}
+#slayt {
+  width: 100%;
+  max-width: 5000px;
+  height: auto;
+  object-fit: cover;
+}
+#button {
+  align-items: center !important;
+}
+#about-image {
+  width: 500px;
+  height: 280px;
+}
